@@ -97,12 +97,13 @@ main {
 }
 
 .section-title {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 35px;
+    text-align: center;
 
 }
 
-.section-description {
+.section-description,.section-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
@@ -113,14 +114,50 @@ main {
     height: 60px;
     display: flex;
     justify-content: space-around;
-    
+
 }
-.about, .info-title{
+
+.about,
+.info-title {
     text-align: center;
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-size: 20px;
     color: #474747;
 }
+
+/* what i do section */
+.what-i-do {
+    margin-top: 137px;
+}
+
+.skills-container {
+    display: flex;
+    margin-top: 120px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+
+.skill-description {
+   
+    color: #757575;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+/* .waht-i-do-description{
+text-align: center;
+} */
